@@ -12,9 +12,19 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
       font-family: sans-serif;
+    }
+
+    .title {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      padding: 0 20px;
     }
 
     .card-container {
@@ -73,6 +83,7 @@
       font-size: 16px;
       text-decoration: none;
       transition: background 0.3s;
+      margin-bottom: 40px;
     }
 
     .instagram-button:hover {
@@ -81,6 +92,8 @@
   </style>
 </head>
 <body>
+
+  <div class="title">15% su tutti i servizi Juice!</div>
 
   <div class="card-container" onclick="this.querySelector('.card').classList.toggle('flipped')">
     <div class="card">
@@ -93,7 +106,10 @@
     </div>
   </div>
 
-  <a href="https://www.instagram.com/juiceheadesigner/" target="_blank" class="instagram-button">Vai su Instagram</a>
+  <a href="https://instagram.com/tuoprofilo" target="_blank" class="instagram-button">Vai su Instagram</a>
+
+</body>
+</html>
 
 </body>
 </html>
